@@ -1,0 +1,1106 @@
+13:40:14 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+inet/applications/dhcp/DHCPServer.cc
+inet/applications/dhcp/DHCPClient.cc
+inet/applications/ethernet/EthernetApplication.cc
+inet/applications/ethernet/EtherAppSrv.cc
+inet/applications/ethernet/EtherTrafGen.cc
+inet/applications/ethernet/EtherAppCli.cc
+inet/applications/generic/IPvXTrafGen.cc
+inet/applications/generic/IPvXTrafSink.cc
+inet/applications/httptools/browser/HttpBrowserDirect.cc
+inet/applications/httptools/browser/HttpBrowserBase.cc
+inet/applications/httptools/browser/HttpBrowser.cc
+inet/applications/httptools/common/HttpUtils.cc
+inet/applications/httptools/common/HttpRandom.cc
+inet/applications/httptools/common/HttpNodeBase.cc
+inet/applications/httptools/configurator/HttpController.cc
+inet/applications/httptools/server/HttpServerDirect.cc
+inet/applications/httptools/server/HttpServer.cc
+inet/applications/httptools/server/HttpServerDirectEvilA.cc
+inet/applications/httptools/server/HttpServerEvilA.cc
+inet/applications/httptools/server/HttpServerBase.cc
+inet/applications/httptools/server/HttpServerEvilB.cc
+inet/applications/httptools/server/HttpServerDirectEvilB.cc
+inet/applications/netperfmeter/NetPerfMeter.cc
+inet/applications/packetdrill/PacketDrillApp.cc
+inet/applications/packetdrill/lexer.cc
+inet/applications/packetdrill/PacketDrillUtils.cc
+inet/applications/packetdrill/PacketDrillApp.cc: In member function ‘bool inet::PacketDrillApp::compareTcpPacket(inet::tcp::TCPSegment*, inet::tcp::TCPSegment*)’:
+inet/applications/packetdrill/PacketDrillApp.cc:1267:24: warning: variable ‘liveOption’ set but not used [-Wunused-but-set-variable]
+             TCPOption *liveOption;
+                        ^~~~~~~~~~
+inet/applications/packetdrill/parser.cc
+inet/applications/packetdrill/PacketDrillUtils.cc: In destructor ‘PacketDrillScript::~PacketDrillScript()’:
+inet/applications/packetdrill/PacketDrillUtils.cc:221:42: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         delete (PacketDrillEvent *)(iter());
+                                          ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrillUtils.h:22,
+                 from inet/applications/packetdrill/PacketDrillUtils.cc:30:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc
+inet/applications/pingapp/PingApp.cc
+inet/applications/rtpapp/RTPApplication.cc
+inet/applications/packetdrill/PacketDrill.cc: In static member function ‘static omnetpp::cPacket* PacketDrill::buildTCPPacket(int, direction_t, const char*, inet::uint32, inet::uint16, inet::uint32, inet::int32, omnetpp::cQueue*, char**)’:
+inet/applications/packetdrill/PacketDrill.cc:224:70: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+             PacketDrillTcpOption* opt = (PacketDrillTcpOption*)(iter());
+                                                                      ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc: In static member function ‘static omnetpp::cPacket* PacketDrill::buildSCTPPacket(int, direction_t, omnetpp::cQueue*)’:
+inet/applications/packetdrill/PacketDrill.cc:267:69: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         PacketDrillSctpChunk *chunk = (PacketDrillSctpChunk *) iter();
+                                                                     ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc: In static member function ‘static PacketDrillSctpChunk* PacketDrill::buildDataChunk(inet::int64, inet::int64, inet::int64, inet::int64, inet::int64, inet::int64)’:
+inet/applications/packetdrill/PacketDrill.cc:331:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < sendBytes; i++)
+                         ~~^~~~~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc: In static member function ‘static PacketDrillSctpChunk* PacketDrill::buildInitChunk(inet::int64, inet::int64, inet::int64, inet::int64, inet::int64, inet::int64, omnetpp::cQueue*)’:
+inet/applications/packetdrill/PacketDrill.cc:394:59: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+             parameter = (PacketDrillSctpParameter*) (iter());
+                                                           ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc: In static member function ‘static PacketDrillSctpChunk* PacketDrill::buildSackChunk(inet::int64, inet::int64, inet::int64, omnetpp::cQueue*, omnetpp::cQueue*)’:
+inet/applications/packetdrill/PacketDrill.cc:513:45: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+             gap = (PacketDrillStruct*) iter();
+                                             ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc:535:45: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+             tsn = (PacketDrillStruct*) iter();
+                                             ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc: In member function ‘int PacketDrill::evaluateExpressionList(omnetpp::cQueue*, omnetpp::cQueue*, char**)’:
+inet/applications/packetdrill/PacketDrill.cc:776:98: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         PacketDrillExpression *outExpr = new PacketDrillExpression(((PacketDrillExpression *)(it()))->getType());
+                                                                                                  ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/packetdrill/PacketDrill.cc:777:51: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         if (evaluate((PacketDrillExpression *)(it()), outExpr, error)) {
+                                                   ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/applications/packetdrill/PacketDrill.h:22,
+                 from inet/applications/packetdrill/PacketDrill.cc:24:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/applications/tcpapp/TCPGenericSrvThread.cc
+inet/applications/tcpapp/TelnetApp.cc
+inet/applications/tcpapp/TCPEchoApp.cc
+inet/applications/udpapp/UDPBasicBurst.cc
+inet/applications/voip/SimpleVoIPSender.cc
+inet/applications/voip/SimpleVoIPReceiver.cc
+inet/common/packet/PcapDump.cc
+inet/common/packet/InetPacketPrinter.cc
+inet/common/packet/InetPacketPrinter2.cc
+inet/common/serializer/headerserializers/ieee80211/Ieee80211PhySerializer.cc
+inet/common/serializer/ipv4/IGMPSerializer.cc
+inet/common/serializer/ipv6/ICMPv6Serializer.cc
+inet/common/serializer/ipv6/IPv6Serializer.cc
+inet/common/serializer/sctp/SCTPSerializer.cc
+inet/environment/common/PhysicalObject.cc
+inet/environment/common/MaterialRegistry.cc
+inet/environment/common/PhysicalEnvironment.cc
+inet/environment/ground/FlatGround.cc
+inet/environment/objectcache/GridObjectCache.cc
+inet/environment/objectcache/BVHObjectCache.cc
+inet/linklayer/base/MACBase.cc
+inet/linklayer/base/MACProtocolBase.cc
+MSGC: inet/linklayer/base/MACFrameBase.msg
+MSGC: inet/linklayer/bmac/BMacFrame.msg
+MSGC: inet/linklayer/common/SimpleLinkLayerControlInfo.msg
+inet/linklayer/common/TxNotifDetails.cc
+inet/linklayer/common/RandomQoSClassifier.cc
+inet/linklayer/common/ExampleQoSClassifier.cc
+inet/linklayer/common/MACAddress.cc
+MSGC: inet/networklayer/contract/generic/GenericNetworkProtocolControlInfo.msg
+inet/linklayer/configurator/L2NodeConfigurator.cc
+inet/linklayer/configurator/Ieee8021dInterfaceData.cc
+inet/linklayer/configurator/L2NetworkConfigurator.cc
+MSGC: inet/linklayer/csma/CSMAFrame.msg
+MSGC: inet/linklayer/csmaca/CsmaCaMacFrame.msg
+inet/linklayer/ethernet/EtherEncap.cc
+inet/linklayer/ethernet/EtherMACBase.cc
+inet/linklayer/ethernet/EtherHub.cc
+inet/linklayer/ethernet/EtherLLC.cc
+inet/linklayer/ethernet/EtherFrameClassifier.cc
+inet/linklayer/ethernet/EtherBus.cc
+inet/linklayer/ethernet/EtherFrame.cc
+inet/linklayer/ethernet/EtherMACFullDuplex.cc
+inet/linklayer/ethernet/EtherMAC.cc
+inet/linklayer/ethernet/switch/MACAddressTable.cc
+inet/linklayer/ethernet/switch/MACRelayUnit.cc
+MSGC: inet/linklayer/ideal/IdealMacFrame.msg
+MSGC: inet/physicallayer/ieee80211/packetlevel/Ieee80211ControlInfo.msg
+inet/linklayer/ieee80211/mac/FrameExchange.cc
+inet/linklayer/ieee80211/mac/OnoeRateControl.cc
+inet/linklayer/ieee80211/mac/BasicRateSelection.cc
+inet/linklayer/ieee80211/mac/Ieee80211Mac.cc
+inet/linklayer/ieee80211/mac/DcfUpperMac.cc
+inet/linklayer/ieee80211/mac/MacParameters.cc
+inet/linklayer/ieee80211/mac/DuplicateDetectors.cc
+inet/linklayer/ieee80211/mac/Rx.cc
+inet/linklayer/ieee80211/mac/DcfUpperMac.cc: In member function ‘virtual void inet::ieee80211::DcfUpperMac::upperFrameReceived(inet::ieee80211::Ieee80211DataOrMgmtFrame*)’:
+inet/linklayer/ieee80211/mac/DcfUpperMac.cc:133:54: warning: ‘int omnetpp::cQueue::length() const’ is deprecated [-Wdeprecated-declarations]
+     if (maxQueueSize > 0 && transmissionQueue.length() >= maxQueueSize && dynamic_cast<Ieee80211DataFrame *>(frame)) {
+                                                      ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/linklayer/ieee80211/mac/IUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/DcfUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/DcfUpperMac.cc:20:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:293:24: note: declared here
+     _OPPDEPRECATED int length() const {return getLength();}
+                        ^~~~~~
+inet/linklayer/ieee80211/mac/DcfUpperMac.cc: In member function ‘virtual void inet::ieee80211::DcfUpperMac::frameExchangeFinished(inet::ieee80211::IFrameExchange*, bool)’:
+inet/linklayer/ieee80211/mac/DcfUpperMac.cc:270:34: warning: ‘bool omnetpp::cQueue::empty() const’ is deprecated [-Wdeprecated-declarations]
+     if (!transmissionQueue.empty()) {
+                                  ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/linklayer/ieee80211/mac/IUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/DcfUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/DcfUpperMac.cc:20:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:298:25: note: declared here
+     _OPPDEPRECATED bool empty() const {return isEmpty();}
+                         ^~~~~
+inet/linklayer/ieee80211/mac/OptimizedCollisionController.cc
+inet/linklayer/ieee80211/mac/CollisionController.cc
+inet/linklayer/ieee80211/mac/Contention.cc
+inet/linklayer/ieee80211/mac/EdcaUpperMac.cc
+inet/linklayer/ieee80211/mac/MacPlugin.cc
+inet/linklayer/ieee80211/mac/Tx.cc
+inet/linklayer/ieee80211/mac/EdcaUpperMac.cc: In member function ‘virtual void inet::ieee80211::EdcaUpperMac::upperFrameReceived(inet::ieee80211::Ieee80211DataOrMgmtFrame*)’:
+inet/linklayer/ieee80211/mac/EdcaUpperMac.cc:153:65: warning: ‘int omnetpp::cQueue::length() const’ is deprecated [-Wdeprecated-declarations]
+     if (maxQueueSize > 0 && acData[ac].transmissionQueue.length() >= maxQueueSize && dynamic_cast<Ieee80211DataFrame *>(frame)) {
+                                                                 ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/linklayer/ieee80211/mac/IUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/EdcaUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/EdcaUpperMac.cc:20:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:293:24: note: declared here
+     _OPPDEPRECATED int length() const {return getLength();}
+                        ^~~~~~
+inet/linklayer/ieee80211/mac/EdcaUpperMac.cc: In member function ‘virtual void inet::ieee80211::EdcaUpperMac::frameExchangeFinished(inet::ieee80211::IFrameExchange*, bool)’:
+inet/linklayer/ieee80211/mac/EdcaUpperMac.cc:346:45: warning: ‘bool omnetpp::cQueue::empty() const’ is deprecated [-Wdeprecated-declarations]
+     if (!acData[ac].transmissionQueue.empty()) {
+                                             ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from inet/linklayer/ieee80211/mac/IUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/EdcaUpperMac.h:23,
+                 from inet/linklayer/ieee80211/mac/EdcaUpperMac.cc:20:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:298:25: note: declared here
+     _OPPDEPRECATED bool empty() const {return isEmpty();}
+                         ^~~~~
+inet/linklayer/ieee80211/mac/RateControlBase.cc
+inet/linklayer/ieee80211/mac/FrameExchanges.cc
+inet/linklayer/ieee80211/mac/AARFRateControl.cc
+inet/linklayer/ieee80211/mac/Fragmentation.cc
+inet/linklayer/ieee80211/mac/BasicStatistics.cc
+MSGC: inet/linklayer/ieee80211/mgmt/Ieee80211Primitives.msg
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtAPSimplified.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtAP.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtSTASimplified.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtAdhoc.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtSTA.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtAPBase.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtBase.cc
+inet/linklayer/ieee80211/oldmac/Ieee80211OldMac.cc
+inet/linklayer/ieee8021d/common/STPBase.cc
+MSGC: inet/linklayer/ieee8021d/common/Ieee8021dBPDU.msg
+MSGC: inet/linklayer/lmac/LMacFrame.msg
+inet/linklayer/loopback/Loopback.cc
+MSGC: inet/linklayer/ppp/PPPFrame.msg
+inet/linklayer/tun/TunInterface.cc
+inet/mobility/base/RotatingMobilityBase.cc
+inet/mobility/base/MobilityBase.cc
+inet/mobility/base/LineSegmentsMobilityBase.cc
+inet/mobility/base/MovingMobilityBase.cc
+inet/mobility/base/LinearRotatingMobilityBase.cc
+inet/mobility/contract/IMobility.cc
+inet/mobility/group/MoBANLocal.cc
+inet/mobility/group/Posture.cc
+inet/mobility/group/MoBANCoordinator.cc
+inet/mobility/group/PostureTransition.cc
+inet/mobility/single/TractorMobility.cc
+inet/mobility/single/Ns2MotionMobility.cc
+inet/mobility/group/MoBANCoordinator.cc: In member function ‘void inet::MoBANCoordinator::collectLocalModules(omnetpp::cModule*)’:
+inet/mobility/group/MoBANCoordinator.cc:718:33: warning: ‘omnetpp::cModule* omnetpp::cModule::SubmoduleIterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         cModule *submodule = it();
+                                 ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp/cdisplaystring.h:21:0,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp.h:37,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from ../src/inet/common/INETMath.h:30,
+                 from inet/mobility/group/MoBANCoordinator.cc:46:
+/home/joelias/omnetpp-5.0/include/omnetpp/cmodule.h:161:33: note: declared here
+         _OPPDEPRECATED cModule *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/mobility/single/BonnMotionMobility.cc
+inet/mobility/single/RectangleMobility.cc
+inet/mobility/single/TurtleMobility.cc
+inet/mobility/single/VehicleMobility.cc
+inet/mobility/single/ANSimMobility.cc
+inet/mobility/single/LinearNodeDistributionMobility.cc
+inet/mobility/single/BonnMotionFileCache.cc
+inet/mobility/single/ConstSpeedMobility.cc
+inet/mobility/single/CircleMobility.cc
+inet/mobility/single/MassMobility.cc
+inet/mobility/single/ChiangMobility.cc
+inet/mobility/single/RandomWPMobility.cc
+inet/mobility/single/GaussMarkovMobility.cc
+inet/mobility/single/LinearMobility.cc
+inet/mobility/static/StaticConcentricMobility.cc
+inet/mobility/static/StaticGridMobility.cc
+inet/mobility/static/StationaryMobility.cc
+inet/networklayer/arp/generic/GenericARP.cc
+MSGC: inet/networklayer/contract/ipv4/IPv4ControlInfo.msg
+MSGC: inet/networklayer/contract/NetworkProtocolCommand.msg
+inet/networklayer/common/InterfaceMatcher.cc
+inet/networklayer/common/L3AddressResolver.cc
+inet/networklayer/common/ModuleIdAddress.cc
+inet/networklayer/common/ModuleIdAddressType.cc
+inet/networklayer/common/InterfaceMatcher.cc: In member function ‘void inet::InterfaceMatcher::collectNeighbors(omnetpp::cGate*, std::vector<omnetpp::cModule*>&, std::vector<omnetpp::cModule*>&, omnetpp::cModule*) const’:
+inet/networklayer/common/InterfaceMatcher.cc:173:34: warning: ‘omnetpp::cGate* omnetpp::cModule::GateIterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+                 cGate *gate = it();
+                                  ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp/cdisplaystring.h:21:0,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp.h:37,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from ../src/inet/networklayer/contract/IInterfaceTable.h:21,
+                 from inet/networklayer/common/InterfaceMatcher.cc:19:
+/home/joelias/omnetpp-5.0/include/omnetpp/cmodule.h:99:31: note: declared here
+         _OPPDEPRECATED cGate *operator()() const {return operator*();}
+                               ^~~~~~~~
+MSGC: inet/networklayer/contract/ipv6/IPv6ControlInfo.msg
+inet/networklayer/common/ModulePathAddress.cc
+inet/networklayer/common/NetfilterInfoHook.cc
+MSGC: inet/networklayer/common/EchoPacket.msg
+inet/networklayer/common/InterfaceEntry.cc
+inet/networklayer/common/IPSocket.cc
+inet/networklayer/common/ModulePathAddressType.cc
+inet/networklayer/common/InterfaceTable.cc
+inet/networklayer/configurator/base/NetworkConfiguratorBase.cc
+inet/networklayer/configurator/generic/GenericNetworkConfigurator.cc
+inet/networklayer/configurator/ipv4/IPv4NetworkConfigurator.cc
+inet/networklayer/common/InterfaceTable.cc: In member function ‘virtual void inet::InterfaceTable::discoverConnectingGates(inet::InterfaceEntry*)’:
+inet/networklayer/common/InterfaceTable.cc:311:22: warning: ‘omnetpp::cGate* omnetpp::cModule::GateIterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         cGate *g = i();
+                      ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp/cdisplaystring.h:21:0,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp.h:37,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from ../src/inet/networklayer/common/InterfaceTable.h:23,
+                 from inet/networklayer/common/InterfaceTable.cc:25:
+/home/joelias/omnetpp-5.0/include/omnetpp/cmodule.h:99:31: note: declared here
+         _OPPDEPRECATED cGate *operator()() const {return operator*();}
+                               ^~~~~~~~
+inet/networklayer/common/InterfaceTable.cc: In member function ‘virtual inet::InterfaceEntry* inet::InterfaceTable::getInterfaceByInterfaceModule(omnetpp::cModule*)’:
+inet/networklayer/common/InterfaceTable.cc:449:22: warning: ‘omnetpp::cGate* omnetpp::cModule::GateIterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+         cGate *g = i();
+                      ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp/cdisplaystring.h:21:0,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp.h:37,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from ../src/inet/networklayer/common/InterfaceTable.h:23,
+                 from inet/networklayer/common/InterfaceTable.cc:25:
+/home/joelias/omnetpp-5.0/include/omnetpp/cmodule.h:99:31: note: declared here
+         _OPPDEPRECATED cGate *operator()() const {return operator*();}
+                               ^~~~~~~~
+inet/networklayer/configurator/ipv4/HostAutoConfigurator.cc
+inet/networklayer/configurator/ipv4/FlatNetworkConfigurator.cc
+inet/networklayer/configurator/ipv4/IPv4NodeConfigurator.cc
+inet/networklayer/configurator/ipv6/FlatNetworkConfigurator6.cc
+inet/networklayer/contract/IRoute.cc
+inet/networklayer/contract/INetworkDatagram.cc
+inet/networklayer/contract/IARP.cc
+inet/networklayer/contract/ipv4/IPv4ControlInfo.cc
+inet/networklayer/contract/ipv4/IPv4AddressType.cc
+inet/networklayer/contract/ipv4/IPv4Address.cc
+inet/networklayer/contract/ipv6/IPv6ControlInfo.cc
+inet/networklayer/contract/ipv6/IPv6AddressType.cc
+inet/networklayer/contract/ipv6/IPv6Address.cc
+MSGC: inet/networklayer/diffserv/DSCP.msg
+inet/networklayer/diffserv/BehaviorAggregateClassifier.cc
+inet/networklayer/diffserv/MultiFieldClassifier.cc
+inet/networklayer/diffserv/TokenBucketMeter.cc
+inet/networklayer/diffserv/SingleRateThreeColorMeter.cc
+inet/networklayer/diffserv/DSCPMarker.cc
+inet/networklayer/diffserv/TwoRateThreeColorMeter.cc
+MSGC: inet/networklayer/base/NetworkDatagramBase.msg
+MSGC: inet/networklayer/common/SimpleNetworkProtocolControlInfo.msg
+MSGC: inet/networklayer/flood/FloodDatagram.msg
+inet/networklayer/generic/GenericRoute.cc
+inet/networklayer/generic/GenericRoutingTable.cc
+inet/networklayer/generic/GenericNetworkProtocolInterfaceData.cc
+MSGC: inet/networklayer/generic/GenericDatagram.msg
+inet/networklayer/icmpv6/ICMPv6.cc
+MSGC: inet/networklayer/xmipv6/MobilityHeader.msg
+inet/networklayer/icmpv6/IPv6NeighbourCache.cc
+inet/networklayer/internetcloud/CloudDelayerBase.cc
+inet/networklayer/internetcloud/MatrixCloudDelayer.cc
+inet/networklayer/ipv4/ErrorHandling.cc
+inet/networklayer/ipv4/IGMPv2.cc
+inet/networklayer/ipv4/IPv4RoutingTable.cc
+inet/networklayer/ipv4/IGMPv3.cc
+inet/networklayer/ipv4/IPv4Datagram.cc
+inet/networklayer/ipv4/NetworkInfo.cc
+inet/networklayer/ipv4/IPv4.cc
+inet/networklayer/ipv4/RoutingTableRecorder.cc
+inet/networklayer/ipv4/IPv4InterfaceData.cc
+inet/networklayer/ipv4/ICMP.cc
+inet/networklayer/ipv4/IPv4Route.cc
+inet/networklayer/ipv4/IPv4FragBuf.cc
+inet/networklayer/ipv4/RoutingTableParser.cc
+inet/networklayer/ipv6/IPv6Route.cc
+inet/networklayer/ipv6/IPv6FragBuf.cc
+inet/networklayer/ipv6/IPv6ExtensionHeaders.cc
+inet/networklayer/ipv6/IPv6InterfaceData.cc
+inet/networklayer/ipv6/IPv6Datagram.cc
+inet/networklayer/ipv6/IPv6.cc
+inet/networklayer/ipv6/IPv6ErrorHandling.cc
+inet/networklayer/ipv6/IPv6RoutingTable.cc
+inet/networklayer/ipv6tunneling/IPv6Tunneling.cc
+MSGC: inet/networklayer/ldp/LDPPacket.msg
+MSGC: inet/networklayer/rsvp_te/IntServ.msg
+MSGC: inet/networklayer/ted/TED.msg
+inet/networklayer/mpls/MPLSPacket.cc
+inet/networklayer/mpls/LIBTable.cc
+inet/networklayer/mpls/MPLS.cc
+inet/networklayer/multi/NetworkDatagramMultiplexer.cc
+inet/networklayer/multi/MultiNetworkLayerLowerMultiplexer.cc
+inet/networklayer/multi/MultiNetworkLayerUpperMultiplexer.cc
+MSGC: inet/networklayer/probabilistic/ProbabilisticBroadcastDatagram.msg
+inet/networklayer/rsvp_te/Utils.cc
+MSGC: inet/networklayer/rsvp_te/RSVPHello.msg
+MSGC: inet/networklayer/rsvp_te/RSVPPacket.msg
+MSGC: inet/networklayer/rsvp_te/RSVPPathMsg.msg
+MSGC: inet/networklayer/rsvp_te/RSVPResvMsg.msg
+MSGC: inet/networklayer/rsvp_te/SignallingMsg.msg
+inet/networklayer/ted/TED.cc
+MSGC: inet/networklayer/ted/LinkStatePacket.msg
+MSGC: inet/networklayer/wiseroute/WiseRouteDatagram.msg
+inet/networklayer/xmipv6/MobilityHeader.cc
+inet/networklayer/xmipv6/BindingCache.cc
+inet/networklayer/xmipv6/xMIPv6.cc
+inet/networklayer/xmipv6/BindingUpdateList.cc
+inet/physicallayer/analogmodel/bitlevel/SignalAnalogModel.cc
+inet/physicallayer/analogmodel/bitlevel/DimensionalSignalAnalogModel.cc
+inet/physicallayer/analogmodel/bitlevel/LayeredDimensionalAnalogModel.cc
+inet/physicallayer/analogmodel/bitlevel/ScalarSignalAnalogModel.cc
+inet/physicallayer/analogmodel/bitlevel/LayeredScalarAnalogModel.cc
+inet/physicallayer/analogmodel/packetlevel/DimensionalAnalogModel.cc
+inet/physicallayer/analogmodel/packetlevel/ScalarReception.cc
+inet/physicallayer/analogmodel/packetlevel/ScalarNoise.cc
+inet/physicallayer/analogmodel/packetlevel/DimensionalReception.cc
+inet/physicallayer/analogmodel/packetlevel/ScalarSNIR.cc
+inet/physicallayer/analogmodel/packetlevel/ScalarAnalogModel.cc
+inet/physicallayer/analogmodel/packetlevel/ScalarTransmission.cc
+inet/physicallayer/analogmodel/packetlevel/DimensionalTransmission.cc
+inet/physicallayer/analogmodel/packetlevel/DimensionalSNIR.cc
+inet/physicallayer/analogmodel/packetlevel/DimensionalNoise.cc
+inet/physicallayer/antenna/InterpolatingAntenna.cc
+inet/physicallayer/antenna/CosineAntenna.cc
+inet/physicallayer/antenna/IsotropicAntenna.cc
+inet/physicallayer/antenna/ParabolicAntenna.cc
+inet/physicallayer/antenna/DipoleAntenna.cc
+inet/physicallayer/antenna/ConstantGainAntenna.cc
+inet/physicallayer/apskradio/bitlevel/APSKDecoder.cc
+MSGC: inet/physicallayer/apskradio/bitlevel/APSKPhyFrame.msg
+inet/physicallayer/apskradio/bitlevel/APSKDemodulator.cc
+inet/physicallayer/apskradio/bitlevel/APSKModulator.cc
+inet/physicallayer/apskradio/bitlevel/APSKEncoder.cc
+inet/physicallayer/apskradio/bitlevel/APSKLayeredTransmitter.cc
+inet/physicallayer/apskradio/bitlevel/APSKCode.cc
+inet/physicallayer/apskradio/bitlevel/APSKLayeredReceiver.cc
+inet/physicallayer/apskradio/bitlevel/errormodel/APSKLayeredErrorModel.cc
+inet/physicallayer/apskradio/packetlevel/APSKScalarReceiver.cc
+inet/physicallayer/apskradio/packetlevel/APSKScalarTransmitter.cc
+inet/physicallayer/apskradio/packetlevel/APSKDimensionalTransmitter.cc
+inet/physicallayer/apskradio/packetlevel/APSKDimensionalReceiver.cc
+inet/physicallayer/apskradio/packetlevel/APSKRadio.cc
+inet/physicallayer/apskradio/packetlevel/errormodel/APSKErrorModel.cc
+inet/physicallayer/backgroundnoise/IsotropicDimensionalBackgroundNoise.cc
+inet/physicallayer/backgroundnoise/IsotropicScalarBackgroundNoise.cc
+inet/physicallayer/base/bitlevel/LayeredErrorModelBase.cc
+inet/physicallayer/base/packetlevel/DimensionalAnalogModelBase.cc
+inet/physicallayer/base/packetlevel/FlatTransmissionBase.cc
+inet/physicallayer/base/packetlevel/AnalogModelBase.cc
+inet/physicallayer/base/packetlevel/SNIRBase.cc
+inet/physicallayer/base/packetlevel/PhysicalLayerBase.cc
+inet/physicallayer/base/packetlevel/ReceiverBase.cc
+inet/physicallayer/base/packetlevel/AntennaBase.cc
+inet/physicallayer/base/packetlevel/CommunicationCacheBase.cc
+inet/physicallayer/base/packetlevel/NarrowbandNoiseBase.cc
+inet/physicallayer/base/packetlevel/ErrorModelBase.cc
+inet/physicallayer/base/packetlevel/TracingObstacleLossBase.cc
+inet/physicallayer/base/packetlevel/FlatReceptionBase.cc
+inet/physicallayer/base/packetlevel/NarrowbandReceiverBase.cc
+inet/physicallayer/base/packetlevel/TransmitterBase.cc
+inet/physicallayer/base/packetlevel/NoiseBase.cc
+inet/physicallayer/base/packetlevel/NarrowbandRadioBase.cc
+inet/physicallayer/base/packetlevel/MQAMModulationBase.cc
+inet/physicallayer/base/packetlevel/NarrowbandTransmissionBase.cc
+inet/physicallayer/base/packetlevel/APSKModulationBase.cc
+inet/physicallayer/base/packetlevel/NarrowbandReceptionBase.cc
+inet/physicallayer/base/packetlevel/FlatTransmitterBase.cc
+inet/physicallayer/base/packetlevel/DimensionalTransmitterBase.cc
+inet/physicallayer/base/packetlevel/GFSKModulationBase.cc
+inet/physicallayer/base/packetlevel/ScalarAnalogModelBase.cc
+inet/physicallayer/base/packetlevel/ListeningBase.cc
+inet/physicallayer/base/packetlevel/ReceptionBase.cc
+inet/physicallayer/base/packetlevel/PathLossBase.cc
+inet/physicallayer/base/packetlevel/FlatRadioBase.cc
+inet/physicallayer/base/packetlevel/NarrowbandTransmitterBase.cc
+inet/physicallayer/base/packetlevel/TransmissionBase.cc
+inet/physicallayer/base/packetlevel/DPSKModulationBase.cc
+inet/physicallayer/base/packetlevel/PPMModulationBase.cc
+inet/physicallayer/base/packetlevel/SNIRReceiverBase.cc
+inet/physicallayer/base/packetlevel/PropagationBase.cc
+inet/physicallayer/base/packetlevel/FlatReceiverBase.cc
+inet/physicallayer/common/bitlevel/AnalogDigitalConverter.cc
+inet/physicallayer/common/bitlevel/LayeredReceptionResult.cc
+inet/physicallayer/common/bitlevel/ConvolutionalCoder.cc
+inet/physicallayer/common/bitlevel/SignalSampleModel.cc
+inet/physicallayer/common/bitlevel/SignalPacketModel.cc
+inet/physicallayer/common/bitlevel/SignalBitModel.cc
+inet/physicallayer/common/bitlevel/LayeredTransmission.cc
+inet/physicallayer/common/bitlevel/ConvolutionalCoderModule.cc
+inet/physicallayer/common/bitlevel/LayeredReception.cc
+inet/physicallayer/common/bitlevel/AdditiveScrambler.cc
+inet/physicallayer/common/bitlevel/AdditiveScramblerModule.cc
+inet/physicallayer/common/bitlevel/AdditiveScrambling.cc
+inet/physicallayer/common/bitlevel/DigitalAnalogConverter.cc
+inet/physicallayer/common/bitlevel/PulseShaper.cc
+inet/physicallayer/common/bitlevel/ConvolutionalCode.cc
+inet/physicallayer/common/bitlevel/PulseFilter.cc
+inet/physicallayer/common/bitlevel/SignalSymbolModel.cc
+inet/physicallayer/common/packetlevel/Interference.cc
+inet/physicallayer/common/packetlevel/CommunicationLog.cc
+inet/physicallayer/common/packetlevel/Arrival.cc
+inet/physicallayer/common/packetlevel/RadioFrame.cc
+inet/physicallayer/common/packetlevel/RadioMedium.cc
+inet/physicallayer/common/packetlevel/ListeningDecision.cc
+inet/physicallayer/common/packetlevel/MediumLimitCache.cc
+inet/physicallayer/common/packetlevel/Radio.cc
+inet/physicallayer/common/packetlevel/ReceptionDecision.cc
+inet/physicallayer/common/packetlevel/BandListening.cc
+inet/physicallayer/common/packetlevel/ReceptionResult.cc
+inet/physicallayer/communicationcache/ReferenceCommunicationCache.cc
+inet/physicallayer/communicationcache/MapCommunicationCache.cc
+inet/physicallayer/communicationcache/VectorCommunicationCache.cc
+inet/physicallayer/contract/packetlevel/ITransmission.cc
+inet/physicallayer/contract/packetlevel/ITracingObstacleLoss.cc
+inet/physicallayer/contract/packetlevel/IRadio.cc
+inet/physicallayer/contract/packetlevel/IRadioSignal.cc
+inet/physicallayer/energyconsumer/StateBasedEnergyConsumer.cc
+inet/physicallayer/errormodel/bitlevel/StochasticLayeredErrorModel.cc
+inet/physicallayer/errormodel/packetlevel/StochasticErrorModel.cc
+inet/physicallayer/idealradio/IdealReceiver.cc
+inet/physicallayer/idealradio/IdealReception.cc
+inet/physicallayer/idealradio/IdealSNIR.cc
+inet/physicallayer/idealradio/IdealAnalogModel.cc
+inet/physicallayer/idealradio/IdealListening.cc
+inet/physicallayer/idealradio/IdealTransmitter.cc
+inet/physicallayer/idealradio/IdealTransmission.cc
+inet/physicallayer/idealradio/IdealNoise.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMModulator.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMDecoderModule.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMSymbolModel.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMModulatorModule.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMEncoder.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211LayeredOFDMReceiver.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMEncoderModule.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMDemodulatorModule.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMDemodulator.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211ConvolutionalCode.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211LayeredOFDMTransmitter.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMDecoder.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMInterleaver.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211HTInterleaving.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMSymbol.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMInterleaverModule.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMInterleaving.cc
+inet/physicallayer/ieee80211/bitlevel/errormodel/Ieee80211OFDMErrorModel.cc
+inet/physicallayer/ieee80211/mode/Ieee80211IRMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211OFDMCode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211ModeBase.cc
+inet/physicallayer/ieee80211/mode/Ieee80211DSSSOFDMMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211FHSSMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211ModeSet.cc
+inet/physicallayer/ieee80211/mode/Ieee80211DSSSMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211HTMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211OFDMMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211HRDSSSMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211OFDMModulation.cc
+inet/physicallayer/ieee80211/mode/Ieee80211Channel.cc
+inet/physicallayer/ieee80211/mode/Ieee80211ERPOFDMMode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211HTCode.cc
+inet/physicallayer/ieee80211/mode/Ieee80211Band.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211ScalarReceiver.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211TransmissionBase.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211ReceiverBase.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211ScalarTransmission.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211Radio.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211DimensionalReceiver.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211IdealTransmitter.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211DimensionalTransmitter.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211TransmitterBase.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211DimensionalTransmission.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211ScalarTransmitter.cc
+inet/physicallayer/ieee80211/packetlevel/errormodel/Ieee80211NistErrorModel.cc
+inet/physicallayer/ieee80211/packetlevel/errormodel/BerParseFile.cc
+inet/physicallayer/ieee80211/packetlevel/errormodel/Ieee80211BerTableErrorModel.cc
+inet/physicallayer/ieee80211/packetlevel/errormodel/Ieee80211ErrorModelBase.cc
+inet/physicallayer/ieee80211/packetlevel/errormodel/Ieee80211YansErrorModel.cc
+inet/physicallayer/ieee80211/packetlevel/errormodel/dsss-error-rate-model.cc
+inet/physicallayer/ieee802154/bitlevel/Ieee802154UWBIRReceiver.cc
+inet/physicallayer/ieee802154/bitlevel/Ieee802154UWBIRMode.cc
+inet/physicallayer/ieee802154/bitlevel/Ieee802154UWBIRTransmitter.cc
+inet/physicallayer/ieee802154/packetlevel/Ieee802154NarrowbandScalarReceiver.cc
+inet/physicallayer/ieee802154/packetlevel/Ieee802154NarrowbandScalarTransmitter.cc
+inet/physicallayer/modulation/DQPSKModulation.cc
+inet/physicallayer/modulation/MPSKModulation.cc
+inet/physicallayer/modulation/QPSKModulation.cc
+inet/physicallayer/modulation/QAM256Modulation.cc
+inet/physicallayer/modulation/MASKModulation.cc
+inet/physicallayer/modulation/16PPMModulation.cc
+inet/physicallayer/modulation/MQAMModulation.cc
+inet/physicallayer/modulation/DSSSOQPSK16Modulation.cc
+inet/physicallayer/modulation/2GFSKModulation.cc
+inet/physicallayer/modulation/QBPSKModulation.cc
+inet/physicallayer/modulation/DBPSKModulation.cc
+inet/physicallayer/modulation/MFSKModulation.cc
+inet/physicallayer/modulation/QAM64Modulation.cc
+inet/physicallayer/modulation/QAM16Modulation.cc
+inet/physicallayer/modulation/BPSKModulation.cc
+inet/physicallayer/modulation/4PPMModulation.cc
+inet/physicallayer/modulation/4GFSKModulation.cc
+inet/physicallayer/neighborcache/NeighborListNeighborCache.cc
+inet/physicallayer/neighborcache/GridNeighborCache.cc
+inet/physicallayer/neighborcache/QuadTreeNeighborCache.cc
+inet/physicallayer/obstacleloss/IdealObstacleLoss.cc
+inet/physicallayer/obstacleloss/DielectricObstacleLoss.cc
+inet/physicallayer/pathloss/SUIPathLoss.cc
+inet/physicallayer/pathloss/UWBIRStochasticPathLoss.cc
+inet/physicallayer/pathloss/NakagamiFading.cc
+inet/physicallayer/pathloss/FreeSpacePathLoss.cc
+inet/physicallayer/pathloss/RayleighFading.cc
+inet/physicallayer/pathloss/TwoRayGroundReflection.cc
+inet/physicallayer/pathloss/LogNormalShadowing.cc
+inet/physicallayer/pathloss/BreakpointPathLoss.cc
+inet/physicallayer/pathloss/RicianFading.cc
+inet/physicallayer/propagation/ConstantSpeedPropagation.cc
+inet/physicallayer/propagation/ConstantTimePropagation.cc
+inet/power/base/EnergySourceBase.cc
+inet/power/base/EnergyStorageBase.cc
+inet/power/base/EnergySinkBase.cc
+inet/power/consumer/AlternatingEnergyConsumer.cc
+inet/power/contract/IEnergyStorage.cc
+inet/power/contract/IEnergyGenerator.cc
+inet/power/contract/IEnergyConsumer.cc
+inet/power/contract/IEnergySource.cc
+inet/power/contract/IEnergySink.cc
+inet/power/generator/AlternatingEnergyGenerator.cc
+inet/power/storage/SimpleEnergyStorage.cc
+inet/power/storage/IdealEnergyStorage.cc
+inet/routing/aodv/AODVRouteData.cc
+MSGC: inet/routing/aodv/AODVControlPackets.msg
+MSGC: inet/routing/bgpv4/BGPCommon.msg
+MSGC: inet/routing/bgpv4/BGPMessage/BGPASPathSegment.msg
+MSGC: inet/routing/bgpv4/BGPMessage/BGPHeader.msg
+MSGC: inet/routing/bgpv4/BGPMessage/BGPKeepAlive.msg
+MSGC: inet/routing/bgpv4/BGPMessage/BGPOpen.msg
+MSGC: inet/routing/bgpv4/BGPMessage/BGPUpdatePathAttributes.msg
+MSGC: inet/routing/bgpv4/BGPMessage/BGPUpdate.msg
+MSGC: inet/routing/ospfv2/OSPFPacket.msg
+MSGC: inet/routing/dymo/DYMO.msg
+inet/routing/bgpv4/BGPMessage/BGPUpdate.cc
+inet/routing/dymo/DYMORouteData.cc
+MSGC: inet/routing/gpsr/GPSR.msg
+inet/routing/gpsr/PositionTable.cc
+inet/routing/ospfv2/OSPFConfigReader.cc
+inet/routing/ospfv2/OSPFRouting.cc
+inet/routing/ospfv2/interface/OSPFInterfaceState.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStateLoopback.cc
+inet/routing/ospfv2/interface/OSPFInterface.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStateDesignatedRouter.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStateWaiting.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStateBackup.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStateDown.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStatePointToPoint.cc
+inet/routing/ospfv2/interface/OSPFInterfaceStateNotDesignatedRouter.cc
+inet/routing/ospfv2/messagehandler/DatabaseDescriptionHandler.cc
+inet/routing/ospfv2/messagehandler/LinkStateAcknowledgementHandler.cc
+inet/routing/ospfv2/messagehandler/LinkStateUpdateHandler.cc
+inet/routing/ospfv2/messagehandler/LinkStateRequestHandler.cc
+inet/routing/ospfv2/messagehandler/MessageHandler.cc
+inet/routing/ospfv2/messagehandler/HelloHandler.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateInit.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateDown.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateExchangeStart.cc
+inet/routing/ospfv2/neighbor/OSPFNeighbor.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborState.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateLoading.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateAttempt.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateExchange.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateTwoWay.cc
+inet/routing/ospfv2/neighbor/OSPFNeighborStateFull.cc
+inet/routing/ospfv2/router/SummaryLSA.cc
+inet/routing/ospfv2/router/NetworkLSA.cc
+inet/routing/ospfv2/router/OSPFRoutingTableEntry.cc
+inet/routing/ospfv2/router/OSPFRouter.cc
+inet/routing/ospfv2/router/OSPFArea.cc
+inet/routing/ospfv2/router/ASExternalLSA.cc
+inet/routing/ospfv2/router/RouterLSA.cc
+inet/routing/ospfv2/router/LSA.cc
+MSGC: inet/routing/pim/PIMPacket.msg
+inet/routing/pim/tables/PIMInterfaceTable.cc
+inet/routing/pim/tables/PIMNeighborTable.cc
+inet/routing/rip/RIPRouting.cc
+inet/transportlayer/base/TransportProtocolBase.cc
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp/cownedobject.h:21:0,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp/carray.h:19,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp.h:21,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from ../src/inet/routing/pim/tables/PIMNeighborTable.h:23,
+                 from inet/routing/pim/tables/PIMNeighborTable.cc:22:
+inet/routing/pim/tables/PIMNeighborTable.cc: In destructor ‘virtual inet::PIMNeighbor::~PIMNeighbor()’:
+/home/joelias/omnetpp-5.0/include/omnetpp/simkerneldefs.h:57:75: warning: throw will always call terminate() [-Wterminate]
+                                    #expr, __FUNCTION__, __FILE__, __LINE__), 0)))
+                                                                           ^
+inet/routing/pim/tables/PIMNeighborTable.cc:41:5: note: in expansion of macro ‘ASSERT’
+     ASSERT(!livenessTimer->isScheduled());
+     ^~~~~~
+/home/joelias/omnetpp-5.0/include/omnetpp/simkerneldefs.h:57:75: note: in C++11 destructors default to noexcept
+                                    #expr, __FUNCTION__, __FILE__, __LINE__), 0)))
+                                                                           ^
+inet/routing/pim/tables/PIMNeighborTable.cc:41:5: note: in expansion of macro ‘ASSERT’
+     ASSERT(!livenessTimer->isScheduled());
+     ^~~~~~
+inet/transportlayer/contract/sctp/SCTPSocket.cc
+inet/transportlayer/contract/sctp/SCTPSocketMap.cc
+inet/transportlayer/contract/tcp/TCPSocketMap.cc
+inet/transportlayer/contract/tcp/TCPSocket.cc
+inet/transportlayer/contract/udp/UDPSocket.cc
+MSGC: inet/transportlayer/rtp/RTPInnerPacket.msg
+MSGC: inet/transportlayer/rtp/RTPPacket.msg
+MSGC: inet/transportlayer/rtp/RTPParticipantInfo.msg
+MSGC: inet/transportlayer/rtp/reports.msg
+inet/transportlayer/rtp/sdes.cc
+inet/transportlayer/rtp/RTPProfile.cc
+inet/transportlayer/rtp/RTPInnerPacket.cc
+MSGC: inet/transportlayer/rtp/RTCPPacket1.msg
+MSGC: inet/transportlayer/rtp/RTCPPacket2.msg
+MSGC: inet/transportlayer/rtp/RTCPPacket3.msg
+inet/transportlayer/rtp/RTPPayloadReceiver.cc
+inet/transportlayer/rtp/RTPReceiverInfo.cc
+inet/transportlayer/rtp/RTP.cc
+inet/transportlayer/rtp/RTCPPacket.cc
+inet/transportlayer/rtp/reports.cc
+inet/transportlayer/rtp/RTPParticipantInfo.cc
+inet/transportlayer/rtp/RTPPacket.cc
+inet/transportlayer/rtp/profiles/avprofile/RTPAVProfile.cc
+MSGC: inet/transportlayer/rtp/profiles/avprofile/RTPMpegPacket.msg
+inet/transportlayer/sctp/SCTPAssociationAddIP.cc
+inet/transportlayer/sctp/SCTPAssociationRcvMessage.cc
+inet/transportlayer/sctp/SCTPAssociationStreamReset.cc
+inet/transportlayer/sctp/SCTPQueue.cc
+inet/transportlayer/sctp/SCTP.cc
+inet/transportlayer/sctp/SCTPNatTable.cc
+inet/transportlayer/sctp/SCTPMessage.cc
+inet/transportlayer/sctp/SCTPAssociationEventProc.cc
+inet/transportlayer/sctp/SCTPAssociationBase.cc
+inet/transportlayer/sctp/SCTPAssociationSendAll.cc
+inet/transportlayer/sctp/SCTPCCFunctions.cc
+inet/transportlayer/sctp/SCTPAssociationEventProc.cc: In member function ‘void inet::sctp::SCTPAssociation::process_SEND(inet::sctp::SCTPEventCode&, inet::SCTPCommand*, omnetpp::cMessage*)’:
+inet/transportlayer/sctp/SCTPAssociationEventProc.cc:211:56: warning: ‘omnetpp::cObject* omnetpp::cQueue::Iterator::operator()() const’ is deprecated [-Wdeprecated-declarations]
+                 SCTPDataMsg *msg = (SCTPDataMsg *)iter();
+                                                        ^
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp.h:83:0,
+                 from ../src/inet/common/INETDefs.h:28,
+                 from ../src/inet/transportlayer/sctp/SCTP.h:28,
+                 from inet/transportlayer/sctp/SCTPAssociationEventProc.cc:20:
+/home/joelias/omnetpp-5.0/include/omnetpp/cqueue.h:95:33: note: declared here
+         _OPPDEPRECATED cObject *operator()() const {return operator*();}
+                                 ^~~~~~~~
+inet/transportlayer/sctp/SCTPSendStream.cc
+inet/transportlayer/sctp/SCTPReceiveStream.cc
+inet/transportlayer/sctp/SCTPAlg.cc
+inet/transportlayer/sctp/SCTPNatHook.cc
+inet/transportlayer/sctp/SCTPSSFunctions.cc
+inet/transportlayer/sctp/SCTPAssociationUtil.cc
+inet/transportlayer/sctp/SCTPGapList.cc
+inet/transportlayer/tcp/TCPConnectionRcvSegment.cc
+inet/transportlayer/tcp/TCP.cc
+inet/transportlayer/tcp/TCPSACKRexmitQueue.cc
+inet/transportlayer/tcp/TCPConnectionSackUtil.cc
+inet/transportlayer/tcp/TCPConnectionUtil.cc
+inet/transportlayer/tcp/TCPConnectionBase.cc
+inet/transportlayer/tcp/TCPConnectionEventProc.cc
+inet/transportlayer/tcp/flavours/TCPNoCongestionControl.cc
+inet/transportlayer/tcp/flavours/TCPReno.cc
+inet/transportlayer/tcp/flavours/TCPNewReno.cc
+inet/transportlayer/tcp/flavours/TCPTahoeRenoFamily.cc
+inet/transportlayer/tcp/flavours/TCPWestwood.cc
+inet/transportlayer/tcp/flavours/TCPTahoe.cc
+inet/transportlayer/tcp/flavours/TCPBaseAlg.cc
+inet/transportlayer/tcp/flavours/DumbTCP.cc
+inet/transportlayer/tcp/flavours/TCPVegas.cc
+inet/transportlayer/tcp/flavours/TCPSegmentTransmitInfoList.cc
+inet/transportlayer/tcp/queues/TCPVirtualDataRcvQueue.cc
+inet/transportlayer/tcp/queues/TCPByteStreamSendQueue.cc
+inet/transportlayer/tcp/queues/TCPByteStreamRcvQueue.cc
+inet/transportlayer/tcp/queues/TCPMsgBasedSendQueue.cc
+inet/transportlayer/tcp/queues/TCPVirtualDataSendQueue.cc
+inet/transportlayer/tcp/queues/TCPMsgBasedRcvQueue.cc
+inet/transportlayer/tcp_common/TCPSegment.cc
+inet/transportlayer/tcp_common/TCPSpoof.cc
+inet/transportlayer/udp/UDP.cc
+inet/visualizer/base/PathOsgVisualizerBase.cc
+inet/visualizer/base/LinkCanvasVisualizerBase.cc
+inet/visualizer/base/VisualizerBase.cc
+inet/visualizer/base/PathOsgVisualizerBase.cc: In member function ‘virtual void inet::visualizer::PathOsgVisualizerBase::setPosition(omnetpp::cModule*, const inet::Coord&) const’:
+inet/visualizer/base/PathOsgVisualizerBase.cc:98:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < path->moduleIds.size(); i++) {
+                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+inet/visualizer/base/PathOsgVisualizerBase.cc:102:51: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (autoTransform != nullptr && i == path->moduleIds.size() - 1)
+                                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+inet/visualizer/base/MobilityVisualizerBase.cc
+inet/visualizer/base/StatisticVisualizerBase.cc
+inet/visualizer/base/SceneOsgVisualizerBase.cc
+inet/visualizer/base/MediumVisualizerBase.cc
+inet/visualizer/base/TracingObstacleLossVisualizerBase.cc
+inet/visualizer/base/LinkOsgVisualizerBase.cc
+inet/visualizer/base/LinkVisualizerBase.cc
+inet/visualizer/base/PathCanvasVisualizerBase.cc
+inet/visualizer/base/NetworkConnectionVisualizerBase.cc
+inet/visualizer/base/PathCanvasVisualizerBase.cc: In member function ‘virtual void inet::visualizer::PathCanvasVisualizerBase::setPosition(omnetpp::cModule*, const inet::Coord&) const’:
+inet/visualizer/base/PathCanvasVisualizerBase.cc:87:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < path->moduleIds.size(); i++)
+                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+inet/visualizer/base/PathVisualizerBase.cc
+inet/visualizer/base/PhysicalEnvironmentVisualizerBase.cc
+inet/visualizer/base/SceneVisualizerBase.cc
+inet/visualizer/base/NetworkNodeVisualizerBase.cc
+inet/visualizer/environment/PhysicalEnvironmentOsgVisualizer.cc
+inet/visualizer/environment/PhysicalEnvironmentCanvasVisualizer.cc
+inet/visualizer/linklayer/DataLinkOsgVisualizer.cc
+inet/visualizer/linklayer/DataLinkCanvasVisualizer.cc
+inet/visualizer/mobility/MobilityOsgVisualizer.cc
+inet/visualizer/mobility/MobilityCanvasVisualizer.cc
+inet/visualizer/networklayer/NetworkRouteCanvasVisualizer.cc
+inet/visualizer/networklayer/NetworkRouteOsgVisualizer.cc
+inet/visualizer/networknode/NetworkNodeCanvasVisualization.cc
+inet/visualizer/mobility/MobilityOsgVisualizer.cc: In member function ‘virtual void inet::visualizer::MobilityOsgVisualizer::extendMovementTrail(osg::Geode*, const inet::Coord&)’:
+inet/visualizer/mobility/MobilityOsgVisualizer.cc:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (vertices->size() > trailLength)
+                 ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+inet/visualizer/networknode/NetworkConnectionOsgVisualizer.cc
+inet/visualizer/networknode/NetworkNodeOsgVisualizer.cc
+inet/visualizer/networknode/NetworkNodeOsgVisualization.cc
+inet/visualizer/networknode/NetworkConnectionCanvasVisualizer.cc
+inet/visualizer/networknode/NetworkNodeCanvasVisualizer.cc
+inet/visualizer/physicallayer/PhysicalLinkCanvasVisualizer.cc
+inet/visualizer/physicallayer/MediumOsgVisualizer.cc
+inet/visualizer/physicallayer/PhysicalLinkOsgVisualizer.cc
+inet/visualizer/physicallayer/MediumCanvasVisualizer.cc
+inet/visualizer/physicallayer/obstacleloss/TracingObstacleLossOsgVisualizer.cc
+inet/visualizer/physicallayer/obstacleloss/TracingObstacleLossCanvasVisualizer.cc
+inet/visualizer/scene/SceneOsgVisualizer.cc
+inet/visualizer/scene/SceneCanvasVisualizer.cc
+inet/visualizer/scene/SceneOsgEarthVisualizer.cc
+inet/visualizer/statistic/StatisticCanvasVisualizer.cc
+inet/visualizer/statistic/StatisticOsgVisualizer.cc
+inet/visualizer/transportlayer/TransportRouteOsgVisualizer.cc
+inet/visualizer/transportlayer/TransportRouteCanvasVisualizer.cc
+inet/applications/base/ApplicationPacket_m.cc
+inet/applications/dhcp/DHCPMessage_m.cc
+inet/applications/ethernet/EtherApp_m.cc
+inet/applications/httptools/common/HttpEventMessages_m.cc
+inet/applications/httptools/common/HttpMessages_m.cc
+inet/applications/netperfmeter/NetPerfMeter_m.cc
+inet/applications/packetdrill/PacketDrillInfo_m.cc
+inet/applications/pingapp/PingPayload_m.cc
+inet/applications/tcpapp/GenericAppMsg_m.cc
+inet/applications/voip/SimpleVoIPPacket_m.cc
+inet/common/TLVOption_m.cc
+inet/common/ByteArray_m.cc
+inet/common/RawPacket_m.cc
+inet/linklayer/base/MACFrameBase_m.cc
+inet/linklayer/bmac/BMacFrame_m.cc
+inet/linklayer/common/SimpleLinkLayerControlInfo_m.cc
+inet/linklayer/common/Ieee802Ctrl_m.cc
+inet/linklayer/csma/CSMAFrame_m.cc
+inet/linklayer/csmaca/CsmaCaMacFrame_m.cc
+inet/linklayer/ethernet/EtherFrame_m.cc
+inet/linklayer/ideal/IdealMacFrame_m.cc
+inet/linklayer/ieee80211/mac/Ieee80211Frame_m.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211MgmtFrames_m.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211Primitives_m.cc
+inet/linklayer/ieee8021d/common/Ieee8021dBPDU_m.cc
+inet/linklayer/lmac/LMacFrame_m.cc
+inet/linklayer/ppp/PPPFrame_m.cc
+inet/networklayer/arp/ipv4/ARPPacket_m.cc
+inet/networklayer/base/NetworkDatagramBase_m.cc
+inet/networklayer/common/IPProtocolId_m.cc
+inet/networklayer/common/EchoPacket_m.cc
+inet/networklayer/common/SimpleNetworkProtocolControlInfo_m.cc
+inet/networklayer/contract/NetworkProtocolCommand_m.cc
+inet/networklayer/contract/generic/GenericNetworkProtocolControlInfo_m.cc
+inet/networklayer/contract/ipv4/IPv4ControlInfo_m.cc
+inet/networklayer/contract/ipv6/IPv6ControlInfo_m.cc
+inet/networklayer/diffserv/DSCP_m.cc
+inet/networklayer/flood/FloodDatagram_m.cc
+inet/networklayer/generic/GenericDatagram_m.cc
+inet/networklayer/icmpv6/IPv6NDMessage_m.cc
+inet/networklayer/icmpv6/ICMPv6Message_m.cc
+inet/networklayer/ipv4/ICMPMessage_m.cc
+inet/networklayer/ipv4/IPv4Datagram_m.cc
+inet/networklayer/ipv4/IGMPMessage_m.cc
+inet/networklayer/ipv6/IPv6ExtensionHeaders_m.cc
+inet/networklayer/ipv6/IPv6Datagram_m.cc
+inet/networklayer/ldp/LDPPacket_m.cc
+inet/networklayer/probabilistic/ProbabilisticBroadcastDatagram_m.cc
+inet/networklayer/rsvp_te/RSVPResvMsg_m.cc
+inet/networklayer/rsvp_te/IntServ_m.cc
+inet/networklayer/rsvp_te/RSVPHello_m.cc
+inet/networklayer/rsvp_te/SignallingMsg_m.cc
+inet/networklayer/rsvp_te/RSVPPacket_m.cc
+inet/networklayer/rsvp_te/RSVPPathMsg_m.cc
+inet/networklayer/ted/TED_m.cc
+inet/networklayer/ted/LinkStatePacket_m.cc
+inet/networklayer/wiseroute/WiseRouteDatagram_m.cc
+inet/networklayer/xmipv6/MobilityHeader_m.cc
+inet/physicallayer/apskradio/bitlevel/APSKPhyFrame_m.cc
+inet/physicallayer/contract/packetlevel/RadioControlInfo_m.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211OFDMPLCPFrame_m.cc
+inet/physicallayer/ieee80211/bitlevel/Ieee80211PLCPFrame_m.cc
+inet/physicallayer/ieee80211/packetlevel/Ieee80211ControlInfo_m.cc
+inet/routing/aodv/AODVControlPackets_m.cc
+inet/routing/bgpv4/BGPCommon_m.cc
+inet/routing/bgpv4/BGPMessage/BGPUpdate_m.cc
+inet/routing/bgpv4/BGPMessage/BGPHeader_m.cc
+inet/routing/bgpv4/BGPMessage/BGPASPathSegment_m.cc
+inet/routing/bgpv4/BGPMessage/BGPKeepAlive_m.cc
+inet/routing/bgpv4/BGPMessage/BGPUpdatePathAttributes_m.cc
+inet/routing/bgpv4/BGPMessage/BGPOpen_m.cc
+inet/routing/dymo/DYMO_m.cc
+inet/routing/gpsr/GPSR_m.cc
+inet/routing/ospfv2/OSPFPacket_m.cc
+inet/routing/pim/PIMPacket_m.cc
+inet/routing/rip/RIPPacket_m.cc
+inet/transportlayer/contract/sctp/SCTPCommand_m.cc
+inet/transportlayer/contract/tcp/TCPCommand_m.cc
+inet/transportlayer/contract/udp/UDPControlInfo_m.cc
+inet/transportlayer/rtp/RTPPacket_m.cc
+inet/transportlayer/rtp/RTPInterfacePacket_m.cc
+inet/transportlayer/rtp/RTCPPacket3_m.cc
+inet/transportlayer/rtp/RTPInnerPacket_m.cc
+inet/transportlayer/rtp/RTCPPacket1_m.cc
+inet/transportlayer/rtp/reports_m.cc
+inet/transportlayer/rtp/RTCPPacket2_m.cc
+inet/transportlayer/rtp/RTPSenderStatusMessage_m.cc
+inet/transportlayer/rtp/RTPParticipantInfo_m.cc
+inet/transportlayer/rtp/RTPSenderControlMessage_m.cc
+inet/transportlayer/rtp/profiles/avprofile/RTPMpegPacket_m.cc
+inet/transportlayer/sctp/SCTPMessage_m.cc
+inet/transportlayer/tcp_common/TCPSegment_m.cc
+inet/transportlayer/udp/UDPPacket_m.cc
+inet/linklayer/bmac/BMacLayer.cc
+inet/linklayer/common/MACAddressType.cc
+inet/linklayer/csma/CSMA.cc
+inet/linklayer/csmaca/CsmaCaMac.cc
+inet/linklayer/ideal/IdealMac.cc
+inet/linklayer/ieee80211/mac/MacUtils.cc
+inet/linklayer/ieee80211/mgmt/Ieee80211AgentSTA.cc
+inet/linklayer/ieee8021d/relay/Ieee8021dRelay.cc
+inet/linklayer/ieee8021d/rstp/RSTP.cc
+inet/linklayer/ieee8021d/stp/STP.cc
+inet/linklayer/ieee8021d/tester/STPTester.cc
+inet/linklayer/lmac/LMacLayer.cc
+inet/linklayer/ppp/PPP.cc
+inet/networklayer/arp/ipv4/GlobalARP.cc
+inet/networklayer/arp/ipv4/ARP.cc
+inet/networklayer/base/NetworkProtocolBase.cc
+inet/networklayer/common/L3Address.cc
+inet/networklayer/common/EchoProtocol.cc
+inet/networklayer/diffserv/DiffservUtil.cc
+inet/networklayer/flood/Flood.cc
+inet/networklayer/generic/GenericNetworkProtocol.cc
+inet/networklayer/icmpv6/IPv6NeighbourDiscovery.cc
+inet/networklayer/ldp/LDP.cc
+inet/networklayer/probabilistic/ProbabilisticBroadcast.cc
+inet/networklayer/probabilistic/AdaptiveProbabilisticBroadcast.cc
+inet/networklayer/rsvp_te/SimpleClassifier.cc
+inet/networklayer/rsvp_te/RSVP.cc
+inet/networklayer/ted/LinkStateRouting.cc
+inet/networklayer/wiseroute/WiseRoute.cc
+inet/physicallayer/apskradio/bitlevel/APSKPhyFrameSerializer.cc
+inet/routing/aodv/AODVRouting.cc
+inet/routing/bgpv4/BGPSession.cc
+inet/routing/bgpv4/BGPFSM.cc
+inet/routing/bgpv4/BGPRouting.cc
+inet/routing/dymo/DYMO.cc
+inet/routing/gpsr/GPSR.cc
+inet/routing/pim/PIMSplitter.cc
+inet/routing/pim/PIMPacket.cc
+inet/routing/pim/modes/PIMSM.cc
+inet/routing/pim/modes/PIMDM.cc
+inet/routing/pim/modes/PIMBase.cc
+inet/transportlayer/rtp/RTPPayloadSender.cc
+inet/transportlayer/rtp/RTPSenderInfo.cc
+inet/transportlayer/rtp/RTCP.cc
+inet/transportlayer/rtp/profiles/avprofile/RTPAVProfilePayload32Receiver.cc
+inet/transportlayer/rtp/profiles/avprofile/RTPAVProfilePayload32Sender.cc
+Creating shared library: ../out/gcc-debug/src/libINET.so
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+14:04:42 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+14:04:43 **** Build of configuration gcc-debug for project inet-framework-simulte-afd56c4 ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+apps/alert/AlertSender.cc
+apps/alert/AlertReceiver.cc
+apps/vod/VoDUDPClient.cc
+apps/vod/VoDUDPServer.cc
+apps/vod/VoDUDPClient.cc: In member function ‘virtual void VoDUDPClient::receiveStream(VoDPacket*)’:
+apps/vod/VoDUDPClient.cc:137:9: warning: unused variable ‘seqNum’ [-Wunused-variable]
+     int seqNum = msg->getFrameSeqNum();
+         ^~~~~~
+apps/vod/VoDUDPClient.cc:139:9: warning: unused variable ‘frameLength’ [-Wunused-variable]
+     int frameLength = msg->getFrameLength();
+         ^~~~~~~~~~~
+apps/voip/VoIPReceiver.cc
+apps/voip/VoIPSender.cc
+corenetwork/lteip/LteIp.cc
+corenetwork/lteip/IP2lte.cc
+apps/voip/VoIPReceiver.cc: In member function ‘void VoIPReceiver::playout(bool)’:
+apps/voip/VoIPReceiver.cc:117:18: warning: unused variable ‘firstFrameId’ [-Wunused-variable]
+     unsigned int firstFrameId = pPacket->getIDframe();
+                  ^~~~~~~~~~~~
+epc/TrafficFlowFilterSimplified.cc
+epc/TrafficFlowFilter.cc
+epc/gtp/GtpUser.cc
+epc/gtp/GtpUserX2.cc
+epc/TrafficFlowFilterSimplified.cc: In member function ‘EpcNodeType TrafficFlowFilterSimplified::selectOwnerType(const char*)’:
+epc/TrafficFlowFilterSimplified.cc:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+epc/gtp/GtpUserSimplified.cc
+epc/gtp/GtpUser.cc: In member function ‘void GtpUser::handleFromUdp(GtpUserMsg*)’:
+epc/gtp/GtpUser.cc:104:39: warning: unused variable ‘nextTeid’ [-Wunused-variable]
+     TunnelEndpointIdentifier oldTeid, nextTeid;
+                                       ^~~~~~~~
+stack/handoverManager/LteHandoverManager.cc
+stack/pdcp_rrc/layer/LtePdcpRrcUeD2D.cc
+epc/gtp/GtpUserSimplified.cc: In member function ‘EpcNodeType GtpUserSimplified::selectOwnerType(const char*)’:
+epc/gtp/GtpUserSimplified.cc:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+stack/pdcp_rrc/layer/LtePdcpRrc.cc
+stack/pdcp_rrc/layer/LtePdcpRrcEnbD2D.cc
+stack/phy/layer/LtePhyUe.cc
+x2/LteX2Manager.cc
+In file included from /home/joelias/omnetpp-5.0/include/omnetpp/cownedobject.h:21:0,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp/carray.h:19,
+                 from /home/joelias/omnetpp-5.0/include/omnetpp.h:21,
+                 from stack/phy/layer/LtePhyBase.h:16,
+                 from stack/phy/layer/LtePhyUe.h:13,
+                 from stack/phy/layer/LtePhyUe.cc:11:
+stack/mac/packet/LteMacPdu.h: In destructor ‘virtual LteMacPdu::~LteMacPdu()’:
+/home/joelias/omnetpp-5.0/include/omnetpp/simkerneldefs.h:57:75: warning: throw will always call terminate() [-Wterminate]
+                                    #expr, __FUNCTION__, __FILE__, __LINE__), 0)))
+                                                                           ^
+stack/mac/packet/LteMacPdu.h:157:9: note: in expansion of macro ‘ASSERT’
+         ASSERT(sduList_->getOwner() == this);
+         ^~~~~~
+/home/joelias/omnetpp-5.0/include/omnetpp/simkerneldefs.h:57:75: note: in C++11 destructors default to noexcept
+                                    #expr, __FUNCTION__, __FILE__, __LINE__), 0)))
+                                                                           ^
+stack/mac/packet/LteMacPdu.h:157:9: note: in expansion of macro ‘ASSERT’
+         ASSERT(sduList_->getOwner() == this);
+         ^~~~~~
+x2/X2AppClient.cc
+x2/X2AppServer.cc
+Creating shared library: ../out/gcc-debug/src/libinet-framework-simulte-afd56c4.so
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+22:22:51 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+22:22:52 **** Incremental Build of configuration gcc-debug for project inet-framework-simulte-afd56c4 ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+22:27:04 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+22:27:05 **** Incremental Build of configuration gcc-debug for project inet-framework-simulte-afd56c4 ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+22:28:13 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+22:28:14 **** Incremental Build of configuration gcc-debug for project inet-framework-simulte-afd56c4 ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/src'

@@ -1,0 +1,8 @@
+22:28:13 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug CONFIGNAME=gcc-debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+make[1]: Leaving directory '/home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet/src'
+
+22:28:13 Build Finished (took 597ms)
+
