@@ -12,6 +12,9 @@
 #include "LteFeedbackPkt.h"
 #include "IP2lte.h"
 #include "LteDlFeedbackGenerator.h"
+//#include "LSBEnergyConsumer.h"
+
+//void updatePowerConsumption(); //JINSERT
 
 Define_Module(LtePhyUe);
 
@@ -280,6 +283,8 @@ void LtePhyUe::handleAirFrame(cMessage* msg)
 {
     UserControlInfo* lteInfo = dynamic_cast<UserControlInfo*>(msg->removeControlInfo());
 
+    //updatePowerConsumption(); //JINSERT
+
     if (useBattery_)
     {
         //TODO BatteryAccess::drawCurrent(rxAmount_, 0);
@@ -407,6 +412,9 @@ void LtePhyUe::handleAirFrame(cMessage* msg)
 
 void LtePhyUe::handleUpperMessage(cMessage* msg)
 {
+
+    //updatePowerConsumption();
+
 //    if (useBattery_) {
 //    TODO     BatteryAccess::drawCurrent(txAmount_, 1);
 //    }

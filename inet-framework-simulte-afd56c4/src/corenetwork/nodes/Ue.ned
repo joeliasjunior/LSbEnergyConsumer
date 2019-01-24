@@ -25,7 +25,7 @@ import inet.power.contract.IEnergyStorage;
 import inet.power.contract.IEnergyGenerator; 
 import inet.common.lifecycle.NodeStatus; 
 import inet.common.lifecycle.LifecycleController;
-import inet.power.contract.IEnergyConsumer;
+//import inet.power.contract.IEnergyConsumer;
 //import lte.power.contract.IEnergyConsumer;
 //JINSERT
 
@@ -65,7 +65,7 @@ module Ue
 		string energyStorageType = default("");
         string energyGeneratorType = default("");
         *.energySourceModule = default(energyStorageType != "" ? absPath(".energyStorage") : "");
-        string energyConsumerType = default("AlternatingEnergyConsumer"); // NED type of the energy consumer model
+ //       string energyConsumerType = default("AlternatingEnergyConsumer"); // NED type of the energy consumer model
 
     gates:
         input radioIn @directIn;     // connection to master
@@ -124,10 +124,10 @@ module Ue
             parameters:
                 @display("p=49.068,280.836;i=block/plug;is=s");
         }
-        energyConsumer: <energyConsumerType> like IEnergyConsumer if energyConsumerType != "" {
-            parameters:
-                @display("p=49.068,225.504;i=block/plug,#FF8000");
-        }
+//        energyConsumer: <energyConsumerType> like IEnergyConsumer if energyConsumerType != "" {
+//            parameters:
+//                @display("p=49.068,225.504;i=block/plug,#FF8000");
+//        }
     connections allowunconnected:
         //# 
         //# Internal TCP/UDP applications connections with IP stack

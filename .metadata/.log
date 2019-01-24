@@ -5,1013 +5,10 @@ java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-This is a continuation of log file /home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/.metadata/.bak_1.log
-Created Time: 2019-01-23 22:22:42.984
+This is a continuation of log file /home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/.metadata/.bak_2.log
+Created Time: 2019-01-23 23:11:43.901
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:42.984
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/rsvp_te/RSVPHello.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:42.996
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/rsvp_te/IntServ.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:42.997
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/probabilistic/ProbabilisticBroadcastDatagram.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.167
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/ldp/LDPPacket.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.241
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/ipv6/IPv6ExtensionHeaders.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.268
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/ipv6/IPv6Datagram.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.385
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/ipv4/IPv4Datagram.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.442
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/ipv4/IGMPMessage.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.443
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/ipv4/ICMPMessage.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.517
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/icmpv6/IPv6NDMessage.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.517
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/icmpv6/ICMPv6Message.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.577
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/generic/GenericDatagram.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.578
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/flood/FloodDatagram.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.698
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/diffserv/DSCP.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.716
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/contract/ipv6/IPv6ControlInfo.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.751
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/contract/ipv4/IPv4ControlInfo.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.801
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/contract/generic/GenericNetworkProtocolControlInfo.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.802
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/contract/NetworkProtocolCommand.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:43.941
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/common/SimpleNetworkProtocolControlInfo.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.054
-!MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/common/IPProtocolId.msg
-!STACK 0
-java.lang.Exception
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:86)
-	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
-	at org.omnetpp.cdt.cache.CppScanner.getScannerInfo(CppScanner.java:136)
-	at org.omnetpp.cdt.cache.CppScanner.<init>(CppScanner.java:119)
-	at org.omnetpp.cdt.cache.DependencyCache.collectFileIncludeStatements(DependencyCache.java:451)
-	at org.omnetpp.cdt.cache.DependencyCache$6.visit(DependencyCache.java:416)
-	at org.omnetpp.cdt.cache.DependencyCache$4.visit(DependencyCache.java:372)
-	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
-	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
-	at org.omnetpp.cdt.cache.DependencyCache.visitNonGeneratedSourceFiles(DependencyCache.java:357)
-	at org.omnetpp.cdt.cache.DependencyCache.collectIncludeStatementsInProject(DependencyCache.java:403)
-	at org.omnetpp.cdt.cache.DependencyCache.computeCachedData(DependencyCache.java:312)
-	at org.omnetpp.cdt.cache.DependencyCache.getCrossFolderDependencies(DependencyCache.java:243)
-	at org.omnetpp.cdt.build.MetaMakemake.translateOptions(MetaMakemake.java:75)
-	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:56)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:354)
-	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:337)
-	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:77)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
-	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
-	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.073
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:43.901
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/common/EchoPacket.msg
 !STACK 0
 java.lang.Exception
@@ -1055,13 +52,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.083
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:43.913
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/base/NetworkDatagramBase.msg
 !STACK 0
 java.lang.Exception
@@ -1105,13 +99,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.101
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:43.936
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/networklayer/arp/ipv4/ARPPacket.msg
 !STACK 0
 java.lang.Exception
@@ -1156,13 +147,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.649
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:44.478
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ppp/PPPFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1206,13 +194,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.710
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:44.532
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/lmac/LMacFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1256,13 +241,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.777
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:44.595
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ieee8021d/common/Ieee8021dBPDU.msg
 !STACK 0
 java.lang.Exception
@@ -1307,13 +289,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.798
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:44.616
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ieee80211/mgmt/Ieee80211Primitives.msg
 !STACK 0
 java.lang.Exception
@@ -1358,13 +337,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:44.837
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:44.652
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ieee80211/mgmt/Ieee80211MgmtFrames.msg
 !STACK 0
 java.lang.Exception
@@ -1409,13 +385,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.090
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:44.907
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ieee80211/mac/Ieee80211Frame.msg
 !STACK 0
 java.lang.Exception
@@ -1460,13 +433,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.305
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.118
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ideal/IdealMacFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1510,13 +480,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.470
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.254
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/ethernet/EtherFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1560,13 +527,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.514
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.301
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/csmaca/CsmaCaMacFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1610,13 +574,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.534
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.322
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/csma/CSMAFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1660,13 +621,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.600
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.387
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/common/SimpleLinkLayerControlInfo.msg
 !STACK 0
 java.lang.Exception
@@ -1710,13 +668,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.638
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.423
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/common/Ieee802Ctrl.msg
 !STACK 0
 java.lang.Exception
@@ -1760,13 +715,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.689
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.461
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/bmac/BMacFrame.msg
 !STACK 0
 java.lang.Exception
@@ -1810,13 +762,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:45.702
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:45.470
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/linklayer/base/MACFrameBase.msg
 !STACK 0
 java.lang.Exception
@@ -1860,13 +809,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.109
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:46.925
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/common/TLVOption.msg
 !STACK 0
 java.lang.Exception
@@ -1909,13 +855,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.181
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.009
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/common/RawPacket.msg
 !STACK 0
 java.lang.Exception
@@ -1958,13 +901,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.322
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.195
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/common/ByteArray.msg
 !STACK 0
 java.lang.Exception
@@ -2007,13 +947,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.374
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.250
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/voip/SimpleVoIPPacket.msg
 !STACK 0
 java.lang.Exception
@@ -2057,13 +994,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.663
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.519
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/tcpapp/GenericAppMsg.msg
 !STACK 0
 java.lang.Exception
@@ -2107,13 +1041,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.770
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.629
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/pingapp/PingPayload.msg
 !STACK 0
 java.lang.Exception
@@ -2157,13 +1088,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.840
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.696
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/packetdrill/PacketDrillInfo.msg
 !STACK 0
 java.lang.Exception
@@ -2207,13 +1135,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:47.866
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.722
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/netperfmeter/NetPerfMeter.msg
 !STACK 0
 java.lang.Exception
@@ -2257,13 +1182,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.027
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.874
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/httptools/common/HttpMessages.msg
 !STACK 0
 java.lang.Exception
@@ -2308,13 +1230,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.028
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:47.874
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/httptools/common/HttpEventMessages.msg
 !STACK 0
 java.lang.Exception
@@ -2359,13 +1278,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.171
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.017
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/ethernet/EtherApp.msg
 !STACK 0
 java.lang.Exception
@@ -2409,13 +1325,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.193
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.039
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/dhcp/DHCPMessage.msg
 !STACK 0
 java.lang.Exception
@@ -2459,13 +1372,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.212
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.059
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet/src/inet/applications/base/ApplicationPacket.msg
 !STACK 0
 java.lang.Exception
@@ -2509,13 +1419,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.239
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.090
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/x2/packet/X2ControlInfo.msg
 !STACK 0
 java.lang.Exception
@@ -2558,13 +1465,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.239
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.091
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/x2/packet/LteX2Message.msg
 !STACK 0
 java.lang.Exception
@@ -2607,13 +1511,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.582
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.403
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/rlc/packet/LteRlcSdu.msg
 !STACK 0
 java.lang.Exception
@@ -2657,13 +1558,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.583
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.404
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/rlc/packet/LteRlcPdu.msg
 !STACK 0
 java.lang.Exception
@@ -2707,13 +1605,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.583
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.405
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/rlc/packet/LteRlcDataPdu.msg
 !STACK 0
 java.lang.Exception
@@ -2757,13 +1652,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.599
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.418
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/rlc/am/packet/LteRlcAmSdu.msg
 !STACK 0
 java.lang.Exception
@@ -2808,13 +1700,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.599
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.418
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/rlc/am/packet/LteRlcAmPdu.msg
 !STACK 0
 java.lang.Exception
@@ -2859,13 +1748,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.714
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.531
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/phy/packet/LteFeedbackPkt.msg
 !STACK 0
 java.lang.Exception
@@ -2909,13 +1795,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.737
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.555
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/phy/packet/LteAirFrame.msg
 !STACK 0
 java.lang.Exception
@@ -2959,13 +1842,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:48.762
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.579
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/phy/packet/AirFrame.msg
 !STACK 0
 java.lang.Exception
@@ -3009,13 +1889,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.055
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:48.871
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/pdcp_rrc/packet/LtePdcpPdu.msg
 !STACK 0
 java.lang.Exception
@@ -3059,13 +1936,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.505
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.296
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/mac/packet/LteSchedulingGrant.msg
 !STACK 0
 java.lang.Exception
@@ -3109,13 +1983,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.505
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.297
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/mac/packet/LteRac.msg
 !STACK 0
 java.lang.Exception
@@ -3159,13 +2030,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.506
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.297
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/mac/packet/LteMacSduRequest.msg
 !STACK 0
 java.lang.Exception
@@ -3209,13 +2077,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.506
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.298
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/mac/packet/LteMacPdu.msg
 !STACK 0
 java.lang.Exception
@@ -3259,13 +2124,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.507
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.298
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/mac/packet/LteHarqFeedback.msg
 !STACK 0
 java.lang.Exception
@@ -3309,13 +2171,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:49.966
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.787
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/stack/d2dModeSelection/D2DModeSwitchNotification.msg
 !STACK 0
 java.lang.Exception
@@ -3358,13 +2217,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.131
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:49.992
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/epc/gtp/GtpUserMsg.msg
 !STACK 0
 java.lang.Exception
@@ -3407,13 +2263,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.354
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.203
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/common/timer/TTimerMsg.msg
 !STACK 0
 java.lang.Exception
@@ -3456,13 +2309,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.367
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.216
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/common/timer/TMultiTimerMsg.msg
 !STACK 0
 java.lang.Exception
@@ -3505,13 +2355,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.381
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.230
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/common/LteControlInfo.msg
 !STACK 0
 java.lang.Exception
@@ -3553,13 +2400,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.408
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.255
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/apps/voip/VoipPacket.msg
 !STACK 0
 java.lang.Exception
@@ -3602,13 +2446,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.522
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.369
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/apps/vod/VoDPacket.msg
 !STACK 0
 java.lang.Exception
@@ -3651,13 +2492,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.523
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.370
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/apps/vod/M1Message.msg
 !STACK 0
 java.lang.Exception
@@ -3700,13 +2538,10 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 22:22:50.594
+!ENTRY org.eclipse.cdt.core 2 0 2019-01-23 23:11:50.421
 !MESSAGE Error getting ScannerInfo: Unable to determine language for resource L/inet-framework-simulte-afd56c4/src/apps/alert/AlertPacket.msg
 !STACK 0
 java.lang.Exception
@@ -3749,14 +2584,11 @@ java.lang.Exception
 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:859)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.omnetpp.launch 4 139 2019-01-23 22:27:21.982
+!ENTRY org.omnetpp.launch 4 139 2019-01-23 23:14:47.810
 !MESSAGE Run #0: Finished with Error
 
-!ENTRY org.omnetpp.scave 2 0 2019-01-23 22:30:16.759
-!MESSAGE No Scave editor state was saved for file: /home/joelias/Dropbox/UFF/Pesquisa/LSBEnergyConsumer/inet-framework-simulte-afd56c4/simulations/d2d/results/0.anf.
+!ENTRY org.omnetpp.launch 4 139 2019-01-23 23:17:37.279
+!MESSAGE Run #0: Finished with Error
